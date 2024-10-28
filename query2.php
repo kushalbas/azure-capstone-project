@@ -1,6 +1,7 @@
 <html>
      <body>
           <?php
+               include './parameters/Connection.php';
                include './parameters/get-parameters.php';
                $_pick = $_POST['selection'];
 
